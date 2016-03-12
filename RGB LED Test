@@ -1,0 +1,24 @@
+//setting up the variables to the PWM outputs of the Arduino
+
+const int redPin = 9;
+const int greenPin = 10;
+const int bluePin = 11;
+
+const int max_red = 255;
+const int max_green = 255;
+const int max_blue = 255;
+
+void setup(){
+  //set all three of our led pins to output
+  pinMode(redPin, OUTPUT);
+  pinMode(greenPin, OUTPUT);
+  pinMode(bluePin, OUTPUT);
+}
+
+void loop(){
+//test if the LED's are balanced with all  being 255, Should show up as white
+  analogWrite(redPin,255);
+  analogWrite(greenPin,255);
+  analogWrite(bluePin, 255);
+  
+}
