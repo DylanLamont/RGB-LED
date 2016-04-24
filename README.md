@@ -1,2 +1,2 @@
 # RGB-LED
-This is my project to make an app that can control an RGB LED on my Robotic's team's cart
+This is my project to program an Arduino circuit that will use different PWM signals at different frequencies to control a RGB LED strip on my Robotics team cart (MRT 253)
